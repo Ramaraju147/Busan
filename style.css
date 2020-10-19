@@ -201,6 +201,14 @@ h2 {
 .text-center {
   text-align: center;
 }
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.inline-block {
+  display: inline-block;
+}
 /* header */
 
 .header nav li {
@@ -555,4 +563,298 @@ footer .flex {
 
 .col-4-4 {
   padding-right: 60px;
+}
+
+/* about */
+
+.about {
+  background: url(assets/hero/about_hero.jpg);
+  text-align: center;
+  color: white;
+  height: 300px;
+  line-height: 250px;
+  width: 100%;
+}
+
+.about h2 {
+  font-size: 32px;
+}
+
+/* services */
+
+.services {
+  background: url(assets/hero/services_hero.jpg);
+  text-align: center;
+  color: white;
+  height: 300px;
+  line-height: 250px;
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.services h2 {
+  font-size: 32px;
+}
+
+/* Case-study */
+
+.case-study {
+  background-color: rgb(248, 250, 254);
+}
+
+.case-study .padding {
+  padding: 100px 0px;
+}
+
+.case-study-header {
+  background: url("assets/hero/cases_hero.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 240px;
+  line-height: 210px;
+}
+
+.case-study img {
+  flex: 0 1 32%;
+  width: 100%;
+}
+
+.case-1-3 {
+  width: 32%;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.case-text {
+  position: absolute;
+  left: 0px;
+  bottom: 35px;
+  background-color: white;
+  width: 80%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
+/* Contact */
+
+.contact-header {
+  background: url("assets/hero/contact_hero.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 240px;
+  line-height: 210px;
+}
+
+.location-img img {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.location-img .flex {
+  align-items: flex-start;
+}
+
+.location-1-2 {
+  width: 65%;
+}
+
+.location-1-2 textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 20px;
+}
+
+.location-1-2 textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+.location-1-2 input {
+  height: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 20px;
+}
+
+.location-1-2 .btn {
+  padding: 10px 30px;
+  display: inline-block;
+  margin: 20px 0px;
+}
+
+.text-blocks input {
+  display: inline-block;
+  width: 48%;
+  margin: 20px 0px;
+}
+
+.location-2-2 {
+  width: 28%;
+}
+
+.location-2-2 .flex {
+  justify-content: left;
+  padding: 10px 0px;
+}
+
+.location-2-2 i {
+  font-size: 32px;
+  padding-right: 30px;
+}
+
+.location-2-2 h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fa-mobile {
+  margin-right: 10px;
+  margin-left: 7px;
+}
+
+/* comments */
+
+.blog-1-1 {
+  width: 63%;
+  margin: 50px 0px;
+  position: relative;
+}
+
+.blog-1-1 img {
+  margin: 0px;
+}
+
+.blog-1-1 img {
+  flex: 0 1 63%;
+  width: 100%;
+}
+
+.blog-text {
+  padding: 30px 20px;
+  background-color: white;
+  box-shadow: 0px 3px 8px #888888;
+  margin: 0;
+}
+
+.comments {
+  padding: 20px 0px;
+}
+
+.comments i {
+  margin-right: 5px;
+}
+
+.comments span {
+  margin: 0px 10px;
+}
+
+.date1 {
+  position: absolute;
+  background-color: rgb(236, 117, 122);
+  color: white;
+  padding: 13px 25px;
+  bottom: 190px;
+}
+
+.date span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.input {
+  background-color: rgb(248, 250, 254);
+  padding: 20px 30px;
+  margin-bottom: 30px;
+}
+.input input {
+  height: 37px;
+  width: 200px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.input i {
+  background-color: rgb(236, 117, 122);
+  color: white;
+  padding: 11px;
+}
+
+.input h3 {
+  border-bottom: 1px solid rgb(245, 240, 255);
+  padding: 15px 0px;
+}
+
+.input .btn {
+  display: inline-block;
+  letter-spacing: 2px;
+  padding: 10px 90px;
+  margin: 20px 0px;
+}
+
+.blog .flex {
+  align-items: flex-start;
+}
+
+.blog {
+  position: relative;
+  padding: 60px 0px;
+}
+
+.blog-1-2 {
+  width: 34%;
+  padding-top: 50px;
+  position: absolute;
+  right: -30px;
+}
+
+.input li {
+  border-bottom: 1px solid rgb(245, 240, 255);
+  padding: 15px 0px;
+}
+
+.input .flex {
+  align-items: center;
+  padding: 15px 0px;
+}
+
+.tags {
+  margin: 30px 0px;
+}
+
+.tags span {
+  background-color: white;
+  padding: 10px 15px;
+  display: inline-block;
+  margin: 5px 0px;
+}
+
+.post-1-3 {
+  width: 29%;
+}
+
+.insta {
+  margin: 20px 0px;
+}
+
+.news input {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.blog-header {
+  background: url("assets/hero/blog_hero.jpg");
+}
+
+.page i,
+span {
+  height: 20px;
+  width: 20px;
+  padding: 10px 10px;
+  margin: 0px 5px;
+  border: 1px solid rgb(245, 240, 255);
+  display: inline-block;
+}
+
+.recent-post h4 {
+  font-size: 15px;
+  font-weight: 600;
 }
